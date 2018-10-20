@@ -1,7 +1,7 @@
-words: reasonable,leaky,suspicious,ordinary,unli
+words: reasonable,leaky,suspicious,ordinary,unlikely
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8001/eureka/kely
+      defaultZone: http://localhost:8001/eureka/
 server:
   port: ${PORT:${SERVER_PORT:0}}
