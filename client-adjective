@@ -1,0 +1,7 @@
+words: reasonable,leaky,suspicious,ordinary,unli
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/kely
+server:
+  port: ${PORT:${SERVER_PORT:0}}
