@@ -5,7 +5,7 @@ words: I,You,He,She,It
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8877/eureka/
+      defaultZone: http://localhost:8001/eureka/
 server:
   port: ${PORT:${SERVER_PORT:0}}
 
@@ -16,7 +16,7 @@ words: ran,knew,had,saw,bought
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8877/eureka/
+      defaultZone: http://localhost:8001/eureka/
 server:
   port: ${PORT:${SERVER_PORT:0}}
   
@@ -27,7 +27,7 @@ words: a,the
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8877/eureka/
+      defaultZone: http://localhost:8001/eureka/
 server:
   port: ${PORT:${SERVER_PORT:0}}
   
@@ -38,7 +38,7 @@ words: reasonable,leaky,suspicious,ordinary,unli
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8877/eureka/kely
+      defaultZone: http://localhost:8001/eureka/kely
 server:
   port: ${PORT:${SERVER_PORT:0}}
   
@@ -49,6 +49,6 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8877/eureka/
+      defaultZone: http://localhost:8001/eureka/
 server:
   port: ${PORT:${SERVER_PORT:0}}
