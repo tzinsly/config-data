@@ -1,6 +1,3 @@
----
-spring:
-  profiles: adjective
 eureka:
   client:
     serviceUrl:
